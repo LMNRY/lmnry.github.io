@@ -1,0 +1,204 @@
+a {
+	color:#5d98b7;
+	text-decoration:none;
+	}
+	
+a:hover {
+	color:#77b9dc;
+	}
+	
+a:visited {
+	color:#5d98b7;
+	}
+	
+a.navLink {
+	color:#222;
+	}
+	
+a.navLink:hover {
+	color:#222;
+	}
+	
+a.navLink:visited {
+	color:#222;
+	}
+	
+a.section {
+	color:#6f6f6f;
+	}
+	
+a.section:hover {
+	text-decoration:underline;
+	}
+	
+ul,ol {
+	font-weight:200;
+	font-family:"helvetica neue", helvetica, arial;
+	color:#222;
+	font-size:12px;
+	}
+
+
+p {
+	font-family: Helvetica Neue, Helvetica, Arial sans-serif;
+	color: #6f6f6f;
+	font-size: 15px;
+	font-weight:200;
+	}
+	
+.pHead {
+	padding-top:50px;
+	}
+	
+p.popup {
+	font-family: Helvetica Neue, Helvetica, Arial sans-serif;
+	color: #ddd;
+	font-size: 13px;
+	}
+
+
+/* GENERIC  */
+
+.wrap{
+	width:960px;
+	margin: 0px auto;
+	}
+	
+.lineWrap {
+	width:5px;
+	margin: 100px 15px 0 410px;
+	float:left;
+	}
+	
+.contentWrap {
+	width:530px;
+	margin-top:100px;
+	float:left;
+	}
+	
+	
+.logo {
+	width:300px;
+	height:50px;
+	display:block;
+	background: url(../img/physicalvision.png) 0 0 no-repeat;
+	}
+	
+.left {
+	width:300px;
+	float:left;
+	}
+	
+.right {
+	width:300px;
+	float:right;
+	text-align:right;
+	}
+	
+/* BODY	 */
+
+.star {
+	width:500px;
+	height:780px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background: url(../img/star.png) 0 0 no-repeat;
+	}
+	
+.headerInfo {
+	width: 450px;
+	margin-top:10px;
+	color:#444;
+	font: 26px/34px Helvetica Neue, Helvetica, sans-serif;
+	font-weight:100;
+	}
+	
+.subTitle {
+	color: #888;
+	}
+	
+.spacer {
+	margin:20px 0 0 -5px;;
+	}
+	
+.sectionLine {
+	width:5px;
+	height:75px;
+	/*background: url(../img/sectionline.png) 0 0 no-repeat;*/
+	overflow:visible;
+	}
+	
+.sectionLine2 {
+	width:5px;
+	height:75px;
+	/*background: url(../img/sectionline.png) 0 0 no-repeat;*/
+	overflow:visible;
+	margin-top:28px;
+	}
+	
+.sectionLineJS {
+	width:5px;
+	height:75px;
+	background: url(../img/sectionline.png) 0 0 no-repeat;
+	overflow:visible;
+	margin-top:650px;
+	}
+	
+	
+/* CONTACT */
+
+.contactBlock {
+	width:530px;
+	margin-top:20px;
+	}
+	
+.inputWrap {
+	width:300px;
+	}
+	
+.inputBlock {
+	width:300px;
+	height: 40px;
+	background: #eee;
+	margin:10px 0 0 0;
+	color: #888;
+	}
+	
+.messageBlock {
+	width:300px;
+	height:240px;
+	margin:10px 0 0 0px;
+	background: #eee;
+	}
+	
+.blockText {
+	color:#888;
+	font: 16px/24px Helvetica Neue, Helvetica, sans-serif;
+	font-weight:200;
+	padding:8px;
+	}
+	
+.submitBtn {
+	width:140px;
+	height:30px;
+	margin:10px 0 0 0px;
+	text-align:center;
+	font: 16px/24px Helvetica Neue, Helvetica, sans-serif;
+	font-weight:200;
+	background:#eee;
+	}
+
+.submitBtn:hover {
+	cursor:pointer;
+	}
+	
+.submitBtnInput:hover {
+	cursor:pointer;
+	}
+	
+/* FOOTER */
+.footer {
+	width:780px;
+	margin: 150px auto 0 auto;
+	}
